@@ -15,9 +15,7 @@ Validation croisée: test/entrainement
 
 Questions:
 
-Dashboard ?
 
-Que veut dire créer une variable
 
 
 
