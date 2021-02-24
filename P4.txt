@@ -1,0 +1,51 @@
+Probabilité de remboursement
+
+Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
+
+Mesure de l'importance des variables
+
+Kernel Kaggle: contruire des nouvelles variables à partir des existantes https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
+
+Graphiques: https://www.psiweb.org/docs/default-source/2018-psi-conference-posters/48-julie-jones.pdf
+
+Validation croisée: test/entrainement
+
+
+
+
+Questions:
+
+Dashboard ?
+
+Que veut dire créer une variable
+
+
+
+
+
+Plan:
+
+Compréhension de la problématique métier
+Description du jeu de données
+Transformation du jeu de données (nettoyage et feature engineering)
+Comparaison et synthèse des résultats pour les modèles utilisés
+Interprétabilité du modèle
+Conclusion
+
+
+
+Contraintes:
+
+les variables catégorielles ont été identifiées et transformées pour être utilisées par le modèle (ex : one hot encoding)
+
+Plusieurs modèles ont été essayés (au minimum un linéaire et un non linéaire)
+
+une métrique specifiquement adaptée au cas et qui pénalise le non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles
+
+
+
+Doc:
+
+https://machinelearningmastery.com/what-is-imbalanced-classification/
+
+https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/
