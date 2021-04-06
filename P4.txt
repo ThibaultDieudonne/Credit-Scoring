@@ -1,22 +1,42 @@
-Probabilité de remboursement
+TODO:
+Comparer les modèles
+Ajouter des variables
+Recompute avec le meilleur modèle
+
+Questions:
+
+Interpréter pair plots du kernel ?
+
+Faire quelque chose de particulier avec les variables redondantes ?
+
+Faut-il faire plus d'analyse bivariées ?
+
+
+Modèles:
+
+Regression Logistique
+
+Foret
+
+SVN à noyau
+
+RDN
+
+Regression ridge à noyau
+
+
+
+
 
 Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
 
 Mesure de l'importance des variables
 
-Kernel Kaggle: contruire des nouvelles variables à partir des existantes https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction
-
 Graphiques: https://www.psiweb.org/docs/default-source/2018-psi-conference-posters/48-julie-jones.pdf
 
-Validation croisée: test/entrainement
+une métrique specifiquement adaptée au cas et qui pénalise la non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles => recall, f-alpha score, ROC AUC, faux +, faux - => implémenter selon ce qu'on cherche (on préfère les faux négatif par exemple)
 
-
-
-
-Questions:
-
-
-
+hyperparamètres => tuning des parametres => grid search
 
 
 
@@ -38,11 +58,13 @@ les variables catégorielles ont été identifiées et transformées pour être 
 
 Plusieurs modèles ont été essayés (au minimum un linéaire et un non linéaire)
 
-une métrique specifiquement adaptée au cas et qui pénalise le non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles
+une métrique specifiquement adaptée au cas et qui pénalise la non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles
 
 
 
 Doc:
+
+https://www.youtube.com/channel/UCmpptkXu8iIFe6kfDK5o7VQ (en particulier optimisation des hyperparametres = tuning hyperparametres). English: https://openclassrooms.com/fr/courses/6401081-improve-the-performance-of-a-machine-learning-model
 
 https://machinelearningmastery.com/what-is-imbalanced-classification/
 
