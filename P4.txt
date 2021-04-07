@@ -1,7 +1,9 @@
 TODO:
 Comparer les modèles
 Ajouter des variables
+Trouver les hyperparamètres
 Recompute avec le meilleur modèle
+Ajouter un modèle linéaire
 
 Questions:
 
@@ -10,6 +12,12 @@ Interpréter pair plots du kernel ?
 Faire quelque chose de particulier avec les variables redondantes ?
 
 Faut-il faire plus d'analyse bivariées ?
+
+Foret < Reglog ?
+
+Optimiser le nombre de partitions de KFOLD ?
+
+Trouver les hyperparamètres optimisés automatiquement ?
 
 
 Modèles:
@@ -20,9 +28,7 @@ Foret
 
 SVN à noyau
 
-RDN
-
-Regression ridge à noyau
+LGBM
 
 
 
