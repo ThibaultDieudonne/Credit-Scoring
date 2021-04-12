@@ -1,70 +1,19 @@
 TODO:
-Comparer les modèles
-Ajouter des variables
-Trouver les hyperparamètres
-Recompute avec le meilleur modèle
-Ajouter un modèle linéaire
+
+Ajouter des variables => demande du domain knowledge
+
+Trouver les hyperparamètres (grid search)
+
+Balancer les 0/1: https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+
+fscore (moyenne harm precision recall) => faux négatifs
+
 
 Questions:
 
-Interpréter pair plots du kernel ?
+Faire quelque chose de particulier avec les variables redondantes ? => tester sans pour voir si ca impacte
 
-Faire quelque chose de particulier avec les variables redondantes ?
-
-Faut-il faire plus d'analyse bivariées ?
-
-Foret < Reglog ?
-
-Optimiser le nombre de partitions de KFOLD ?
-
-Trouver les hyperparamètres optimisés automatiquement ?
-
-
-Modèles:
-
-Regression Logistique
-
-Foret
-
-SVN à noyau
-
-LGBM
-
-
-
-
-
-Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
-
-Mesure de l'importance des variables
-
-Graphiques: https://www.psiweb.org/docs/default-source/2018-psi-conference-posters/48-julie-jones.pdf
-
-une métrique specifiquement adaptée au cas et qui pénalise la non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles => recall, f-alpha score, ROC AUC, faux +, faux - => implémenter selon ce qu'on cherche (on préfère les faux négatif par exemple)
-
-hyperparamètres => tuning des parametres => grid search
-
-
-
-
-Plan:
-
-Compréhension de la problématique métier
-Description du jeu de données
-Transformation du jeu de données (nettoyage et feature engineering)
-Comparaison et synthèse des résultats pour les modèles utilisés
-Interprétabilité du modèle
-Conclusion
-
-
-
-Contraintes:
-
-les variables catégorielles ont été identifiées et transformées pour être utilisées par le modèle (ex : one hot encoding)
-
-Plusieurs modèles ont été essayés (au minimum un linéaire et un non linéaire)
-
-une métrique specifiquement adaptée au cas et qui pénalise la non détection a été definie par l'étudiant et utilisé pour évaluer la performance de ses modèles
+Faut-il faire plus d'analyse bivariées ? => un peu plus sur les variables explicatives
 
 
 
@@ -75,3 +24,5 @@ https://www.youtube.com/channel/UCmpptkXu8iIFe6kfDK5o7VQ (en particulier optimis
 https://machinelearningmastery.com/what-is-imbalanced-classification/
 
 https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/
+
+Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
