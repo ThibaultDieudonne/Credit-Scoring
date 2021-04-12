@@ -1,28 +1,23 @@
 TODO:
 
-Ajouter des variables => demande du domain knowledge
-
-Trouver les hyperparamètres (grid search)
-
-Balancer les 0/1: https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
-
 fscore (moyenne harm precision recall) => faux négatifs
+
+LGBM doesnt sort well => debug
+
+revoir/compléter notebook en vue de la presentation
 
 
 Questions:
 
-Faire quelque chose de particulier avec les variables redondantes ? => tester sans pour voir si ca impacte
+Ajouter des variables demande du domain knowledge ?
 
-Faut-il faire plus d'analyse bivariées ? => un peu plus sur les variables explicatives
+Conclusion ? (precision, ...)
 
+A quel point dig les critères d'explicativité/interprétabilité ?
+
+Etude de performance du tunning des hyperparametres ?
 
 
 Doc:
-
-https://www.youtube.com/channel/UCmpptkXu8iIFe6kfDK5o7VQ (en particulier optimisation des hyperparametres = tuning hyperparametres). English: https://openclassrooms.com/fr/courses/6401081-improve-the-performance-of-a-machine-learning-model
-
-https://machinelearningmastery.com/what-is-imbalanced-classification/
-
-https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/
 
 Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
