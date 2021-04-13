@@ -2,12 +2,14 @@ TODO:
 
 fscore (moyenne harm precision recall) => faux négatifs
 
-LGBM doesnt sort well => debug
+Corriger la balance
 
 revoir/compléter notebook en vue de la presentation
 
 
 Questions:
+
+Tout est très lent
 
 Ajouter des variables demande du domain knowledge ?
 
