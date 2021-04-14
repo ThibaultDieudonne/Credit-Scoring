@@ -1,23 +1,19 @@
 TODO:
 
-fscore (moyenne harm precision recall) => faux négatifs
+superposer courbes
 
 Corriger la balance
 
-revoir/compléter notebook en vue de la presentation
+revoir/compléter notebook en vue de la presentation + full check contraintes + changer les images de la presentation
+
+transformer prédiction en varaible binaire avec un seuil (courbe ROC ou métier)
 
 
 Questions:
 
-Tout est très lent
+Trop petit nombre de variables ?
 
-Ajouter des variables demande du domain knowledge ?
-
-Conclusion ? (precision, ...)
-
-A quel point dig les critères d'explicativité/interprétabilité ?
-
-Etude de performance du tunning des hyperparametres ?
+Abort grid search sur SVM ? => sampler des données
 
 
 Doc:
