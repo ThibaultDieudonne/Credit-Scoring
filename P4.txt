@@ -1,19 +1,10 @@
 TODO:
 
-superposer courbes
+existe-t-il une méthode d'optimisation des HP qui n'implique pas de générer des modèles ?
 
-Corriger la balance
+exec time in result df ?
 
 revoir/compléter notebook en vue de la presentation + full check contraintes + changer les images de la presentation
-
-transformer prédiction en varaible binaire avec un seuil (courbe ROC ou métier)
-
-
-Questions:
-
-Trop petit nombre de variables ?
-
-Abort grid search sur SVM ? => sampler des données
 
 
 Doc:
