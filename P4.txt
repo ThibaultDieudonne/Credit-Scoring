@@ -1,12 +1,7 @@
 TODO:
 
-existe-t-il une méthode d'optimisation des HP qui n'implique pas de générer des modèles ?
+finir de run le notebook en local
 
-exec time in result df ?
-
-revoir/compléter notebook en vue de la presentation + full check contraintes + changer les images de la presentation
+changer les images de la presentation
 
 
-Doc:
-
-Interprétable: https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f?gi=2899760f0b0e   ||    https://christophm.github.io/interpretable-ml-book/
