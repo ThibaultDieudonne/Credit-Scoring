@@ -1,7 +1,0 @@
-TODO:
-
-finir de run le notebook en local
-
-changer les images de la presentation
-
-
